@@ -1,0 +1,144 @@
+body {
+    font-family: arial, sans-serif ;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.Navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar li {
+    margin: 0 15px;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 10px;
+    transition: box-shadow 0.3s ease;
+}
+.Navbar a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.Banner {
+    background-color: white;
+    text-align: center;
+    padding:40px 20px;
+    
+}
+
+.Banner h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.Banner p {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.Nosotros {
+    background-color: #fff9e6;
+    padding: 40px;
+    border-radius: 8px ;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+.Nosotros .title {
+    font-size: 28PX;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Nosotros .intro-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Nosotros p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2.title, h3.category {
+    color: black;
+    margin: 20px 0;
+}
+
+.Productos {
+    padding: 20px;
+}
+
+.Product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.Product-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+.Product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.5; 
+}
+button{ 
+    background-color: yellow;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: orange;
+}
